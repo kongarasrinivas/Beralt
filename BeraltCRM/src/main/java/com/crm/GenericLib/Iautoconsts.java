@@ -11,3 +11,4 @@ public interface Iautoconsts {
 	String EXCEL_PATH="C:\\Users\\Srinivas\\git\\repository\\BeraltCRM\\src\\test\\resources\\Data\\inputData.xlsx";
 }
 //pulling from github to selenium
+//pushing from eclipse to github
