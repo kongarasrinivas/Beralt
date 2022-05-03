@@ -7,9 +7,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 //Github Changes
 //pushng from eclipse to github
+//pulling from github to eclipse
 
 public abstract class BaseTest implements Iautoconsts {
- //pushinggg
+ //pushinggg  
 	public static WebDriver driver;
 	
 	@BeforeClass
