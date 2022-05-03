@@ -6,6 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 //Github Changes
+//pushng from eclipse to github
 public abstract class BaseTest implements Iautoconsts {
  
 	public static WebDriver driver;

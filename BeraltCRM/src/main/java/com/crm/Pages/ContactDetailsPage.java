@@ -8,6 +8,7 @@ import com.crm.GenericLib.BaseTest;
 
 public class ContactDetailsPage {
 	@FindBy(xpath="//td[contains(text(),'Contact Details')]") private WebElement contctDetlsTxt;
+	@FindBy(xpath="//input[@value=\"Delete\"]") private WebElement deleteBtn;
 	
 public ContactDetailsPage()
 	{
@@ -23,5 +24,9 @@ public String getcontactText()
 {
 	String text = contctDetlsTxt.getText();
 	return text;
+}
+public void clickDeletBTn()
+{
+	deleteBtn.click();
 }
 }

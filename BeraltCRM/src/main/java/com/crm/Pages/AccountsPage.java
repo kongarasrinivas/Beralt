@@ -14,6 +14,7 @@ public class AccountsPage {
 	@FindBy(xpath="//input[@value='New Account']") private WebElement newaccountsTab;
 
 	@FindBy(xpath = "//table[@class='secContent']//tr[*]//td[3]") private List<WebElement> allAccountNames;
+	@FindBy(xpath="(//table)[11]//tr[1]//td[2]") private WebElement srinivasTabClick;
 	public AccountsPage()
 	{
 		PageFactory.initElements(BaseTest.driver, this);
@@ -34,6 +35,10 @@ public class AccountsPage {
 	public List<WebElement> getAllAccountNames()
 	{
 		return allAccountNames;
+	}
+	public void clickSrinuTabClick()
+	{
+		srinivasTabClick.click();
 	}
 	
 }

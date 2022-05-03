@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Set;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -52,6 +53,43 @@ public void switchToFrame(int index)
 {
 	BaseTest.driver.switchTo().frame(index);
 }
+
+public void switchToAlert()
+{
+BaseTest.driver.switchTo().alert();	
+}
+
+public void acceptAlert()
+{
+BaseTest.driver.switchTo().alert().accept();	
+}
+
+public void dismissAlert()
+{
+BaseTest.driver.switchTo().alert().dismiss();	
+}
+
+
+
+public String GetAlertText()
+{
+	return BaseTest.driver.switchTo().alert().getText();
+}
+
+public String getElementText(WebElement element)
+{
+return element.getText();
+}
+
+
+
+
+public void scrollDown(String script)
+{
+JavascriptExecutor js = (JavascriptExecutor)BaseTest.driver;	
+js.executeScript(script);
+}
+
 public void mouseHover(WebElement element) {
 	Actions ac = new Actions(BaseTest.driver);
 	ac.moveToElement(element).perform();
@@ -109,6 +147,7 @@ public void switchToWindow(WebElement element, String expectedTitle) throws Inte
 		else {
 			System.out.println("title not found");
 		}
+		//Alert al = driver.SwitchTo.alert();
 	}	
 }
 
