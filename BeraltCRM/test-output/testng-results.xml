@@ -5,47 +5,29 @@
       <![CDATA[Login pageis Displayed pass]]>
     </line>
     <line>
-      <![CDATA[verifyAccounts method started]]>
-    </line>
-    <line>
       <![CDATA[CRM Home is Displayed pass]]>
     </line>
-    <line>
-      <![CDATA[Accounts Page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[verifyAccounts method passed]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-05-03T11:35:27 IST" name="Default suite" finished-at="2022-05-03T11:35:32 IST" duration-ms="5716">
+  <suite started-at="2022-05-04T11:11:02 IST" name="Default suite" finished-at="2022-05-04T11:11:08 IST" duration-ms="5907">
     <groups>
     </groups>
-    <test started-at="2022-05-03T11:35:27 IST" name="Default test" finished-at="2022-05-03T11:35:32 IST" duration-ms="5716">
-      <class name="com.Beralt.accounts.VerifyAccountsTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Beralt.accounts.VerifyAccountsTest@4145bad8]" started-at="2022-05-03T11:35:27 IST" name="openBrowser" finished-at="2022-05-03T11:35:30 IST" duration-ms="3596" status="PASS">
+    <test started-at="2022-05-04T11:11:02 IST" name="Default test" finished-at="2022-05-04T11:11:08 IST" duration-ms="5907">
+      <class name="VerifySalesOrderTab.TestSalesOrderTab">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:VerifySalesOrderTab.TestSalesOrderTab@71ba6d4e]" started-at="2022-05-04T11:11:02 IST" name="openBrowser" finished-at="2022-05-04T11:11:06 IST" duration-ms="3522" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login pageis Displayed pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyAccounts()[pri:0, instance:com.Beralt.accounts.VerifyAccountsTest@4145bad8]" started-at="2022-05-03T11:35:30 IST" name="verifyAccounts" finished-at="2022-05-03T11:35:32 IST" duration-ms="2087" status="PASS">
+        <test-method signature="salesOrder()[pri:0, instance:VerifySalesOrderTab.TestSalesOrderTab@71ba6d4e]" started-at="2022-05-04T11:11:06 IST" name="salesOrder" finished-at="2022-05-04T11:11:08 IST" duration-ms="2352" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[verifyAccounts method started]]>
-            </line>
             <line>
               <![CDATA[CRM Home is Displayed pass]]>
             </line>
-            <line>
-              <![CDATA[Accounts Page is Displayed]]>
-            </line>
-            <line>
-              <![CDATA[verifyAccounts method passed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- verifyAccounts -->
-      </class> <!-- com.Beralt.accounts.VerifyAccountsTest -->
+        </test-method> <!-- salesOrder -->
+      </class> <!-- VerifySalesOrderTab.TestSalesOrderTab -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

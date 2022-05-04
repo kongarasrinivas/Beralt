@@ -39,8 +39,8 @@ public class VerifyAccountsTest extends BaseTest{
 		ap.clickSrinuTabClick();
 		ContactDetailsPage cdp = new ContactDetailsPage();
 		cdp.clickDeletBTn();
-		Alert al = driver.switchTo().alert();
-		al.dismiss();
+		//wlib.dismissAlert();
+		
 		}
 	
 	}

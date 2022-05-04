@@ -16,6 +16,9 @@ public class HomePage {
 	@FindBy(xpath="//a[text()='Forecasts']") private WebElement forecastTab;
 	@FindBy(xpath="//a[text()='Products']") private WebElement productTab;
 	@FindBy(xpath="//IMG[@alt=\"crm.dropdown.submenu\"]") private WebElement arrowSymbl;
+	@FindBy(xpath="//img[@onclick=\"moveright()\"]") private WebElement scrolRightBtn;
+	@FindBy(xpath="//a[text()=\"Sales Orders\"]")private WebElement salesOrderTab;
+	@FindBy(xpath="//a[text()=\"Invoices\"]") private WebElement invoicesTab;
 	
 	public HomePage()
 	{
@@ -82,10 +85,31 @@ public void clickProductTab()
 {
 	productTab.click();
 }
-	
-
-
-
-	
+public void clickScrollRigtTabBtn()
+{
+	for(int i=1;i<100;i++)
+	{
+		scrolRightBtn.click();
+		if(salesOrderTab.isDisplayed())
+		{
+			salesOrderTab.click();
+			break;
+		}
+		//public void ()
+		//{
+			//for(int k=1;i<20;i++)
+			//{
+			//	scrolRightBtn.click();
+				//if(invoicesTab.isDisplayed())
+				//{
+					//invoicesTab.click();
+					//break;
+				}
+				
+			}
+		
 	
 }
+	
+
+

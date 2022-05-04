@@ -146,8 +146,7 @@ public void switchToWindow(WebElement element, String expectedTitle) throws Inte
 		}
 		else {
 			System.out.println("title not found");
-		}
-		//Alert al = driver.SwitchTo.alert();
+		} 
 	}	
 }
 
