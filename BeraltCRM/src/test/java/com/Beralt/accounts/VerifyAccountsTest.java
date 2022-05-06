@@ -40,6 +40,7 @@ public class VerifyAccountsTest extends BaseTest{
 		ContactDetailsPage cdp = new ContactDetailsPage();
 		cdp.clickDeletBTn();
 		//wlib.dismissAlert();
+		wlib.GetAlertText();
 		
 		}
 	

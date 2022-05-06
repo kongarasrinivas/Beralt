@@ -8,19 +8,19 @@
       <![CDATA[CRM Home is Displayed pass]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-05-04T11:11:02 IST" name="Default suite" finished-at="2022-05-04T11:11:08 IST" duration-ms="5907">
+  <suite started-at="2022-05-05T21:13:13 IST" name="Default suite" finished-at="2022-05-05T21:13:18 IST" duration-ms="5898">
     <groups>
     </groups>
-    <test started-at="2022-05-04T11:11:02 IST" name="Default test" finished-at="2022-05-04T11:11:08 IST" duration-ms="5907">
+    <test started-at="2022-05-05T21:13:13 IST" name="Default test" finished-at="2022-05-05T21:13:18 IST" duration-ms="5898">
       <class name="VerifySalesOrderTab.TestSalesOrderTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:VerifySalesOrderTab.TestSalesOrderTab@71ba6d4e]" started-at="2022-05-04T11:11:02 IST" name="openBrowser" finished-at="2022-05-04T11:11:06 IST" duration-ms="3522" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:VerifySalesOrderTab.TestSalesOrderTab@a1153bc]" started-at="2022-05-05T21:13:13 IST" name="openBrowser" finished-at="2022-05-05T21:13:16 IST" duration-ms="3232" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login pageis Displayed pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="salesOrder()[pri:0, instance:VerifySalesOrderTab.TestSalesOrderTab@71ba6d4e]" started-at="2022-05-04T11:11:06 IST" name="salesOrder" finished-at="2022-05-04T11:11:08 IST" duration-ms="2352" status="PASS">
+        <test-method signature="salesOrder()[pri:0, instance:VerifySalesOrderTab.TestSalesOrderTab@a1153bc]" started-at="2022-05-05T21:13:16 IST" name="salesOrder" finished-at="2022-05-05T21:13:18 IST" duration-ms="2629" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[CRM Home is Displayed pass]]>

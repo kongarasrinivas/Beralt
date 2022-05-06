@@ -31,7 +31,7 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>testng1.xml</suiteXmlFile>
+						<suiteXmlFile>testng2.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

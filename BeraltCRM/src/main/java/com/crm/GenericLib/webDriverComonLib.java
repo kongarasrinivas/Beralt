@@ -9,6 +9,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -89,7 +90,11 @@ public void scrollDown(String script)
 JavascriptExecutor js = (JavascriptExecutor)BaseTest.driver;	
 js.executeScript(script);
 }
-
+public Point  getElementLocation(WebElement element)
+{
+	return element.getLocation();
+	
+}
 public void mouseHover(WebElement element) {
 	Actions ac = new Actions(BaseTest.driver);
 	ac.moveToElement(element).perform();
