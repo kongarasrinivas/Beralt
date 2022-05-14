@@ -10,7 +10,7 @@ import com.crm.Pages.HomePage;
 import com.crm.Pages.LoginPage;
 import com.crm.Pages.potentialpage;
 import com.crm.leads.ValidLoginTest;
-@Listeners(com.crm.GenericLib.MyListeners.class)
+//@Listeners(com.crm.GenericLib.MyListeners.class)
 public class VerifyPotentialTest extends BaseTest {
 	@Test
 	public void verifyPotentialTest() throws Throwable

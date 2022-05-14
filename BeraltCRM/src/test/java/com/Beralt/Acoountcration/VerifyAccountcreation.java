@@ -1,6 +1,5 @@
 package com.Beralt.Acoountcration;
 
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.GenericLib.BaseTest;
@@ -10,7 +9,7 @@ import com.crm.Pages.AccountsPage;
 import com.crm.Pages.HomePage;
 import com.crm.Pages.createaccountspage;
 import com.crm.leads.ValidLoginTest;
-@Listeners(com.crm.GenericLib.MyListeners.class)
+//@Listeners(com.crm.GenericLib.MyListeners.class)
 public class VerifyAccountcreation extends BaseTest {
 	
 	@Test

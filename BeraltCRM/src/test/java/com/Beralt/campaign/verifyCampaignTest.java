@@ -9,7 +9,7 @@ import com.crm.Pages.HomePage;
 import com.crm.Pages.campaignpage;
 import com.crm.leads.ValidLoginTest;
 
-@Listeners(com.crm.GenericLib.MyListeners.class)
+//@Listeners(com.crm.GenericLib.MyListeners.class)
 public class verifyCampaignTest extends BaseTest {
 @Test
 	public void verifyCampaign() throws Throwable

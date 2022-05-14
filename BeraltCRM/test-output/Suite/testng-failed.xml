@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.Beralt.Acoountcration.VerifyAccountcreation">
+      <class name="VerifyArwSymbl.ArwSymblTest">
         <methods>
+          <include name="verifyArwSymbl"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
-          <include name="VerifyAccountcreationtest"/>
         </methods>
-      </class> <!-- com.Beralt.Acoountcration.VerifyAccountcreation -->
+      </class> <!-- VerifyArwSymbl.ArwSymblTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

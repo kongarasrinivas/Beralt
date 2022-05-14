@@ -1,11 +1,5 @@
 package com.Beralt.accounts;
 
-import java.awt.Robot;
-import java.util.List;
-
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.GenericLib.BaseTest;
@@ -15,7 +9,7 @@ import com.crm.Pages.ContactDetailsPage;
 import com.crm.Pages.HomePage;
 import com.crm.leads.ValidLoginTest;
 
-@Listeners(com.crm.GenericLib.MyListeners.class)
+//@Listeners(com.crm.GenericLib.MyListeners.class)
 public class VerifyAccountsTest extends BaseTest{
 
 	@Test
