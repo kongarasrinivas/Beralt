@@ -7,27 +7,39 @@
     <line>
       <![CDATA[CRM Home is Displayed pass]]>
     </line>
+    <line>
+      <![CDATA[Leads Page is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Create Leads pageis Displayed pass]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-05-14T12:50:15 IST" name="Suite" finished-at="2022-05-14T12:50:20 IST" duration-ms="5282">
+  <suite started-at="2022-05-14T13:20:28 IST" name="Suite" finished-at="2022-05-14T13:20:37 IST" duration-ms="8417">
     <groups>
     </groups>
-    <test started-at="2022-05-14T12:50:15 IST" name="Test" finished-at="2022-05-14T12:50:20 IST" duration-ms="5282">
-      <class name="VerifyArwSymbl.ArwSymblTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:VerifyArwSymbl.ArwSymblTest@2a265ea9]" started-at="2022-05-14T12:50:15 IST" name="openBrowser" finished-at="2022-05-14T12:50:19 IST" duration-ms="4297" status="PASS">
+    <test started-at="2022-05-14T13:20:28 IST" name="Test" finished-at="2022-05-14T13:20:37 IST" duration-ms="8417">
+      <class name="com.crm.leads.VerifyLeadCreation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.crm.leads.VerifyLeadCreation@2a265ea9]" started-at="2022-05-14T13:20:28 IST" name="openBrowser" finished-at="2022-05-14T13:20:33 IST" duration-ms="4507" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login pageis Displayed pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyArwSymbl()[pri:0, instance:VerifyArwSymbl.ArwSymblTest@2a265ea9]" started-at="2022-05-14T12:50:19 IST" name="verifyArwSymbl" finished-at="2022-05-14T12:50:20 IST" duration-ms="946" status="PASS">
+        <test-method signature="verifyLeadCreationTest()[pri:0, instance:com.crm.leads.VerifyLeadCreation@2a265ea9]" started-at="2022-05-14T13:20:33 IST" name="verifyLeadCreationTest" finished-at="2022-05-14T13:20:37 IST" duration-ms="3870" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[CRM Home is Displayed pass]]>
             </line>
+            <line>
+              <![CDATA[Leads Page is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Create Leads pageis Displayed pass]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifyArwSymbl -->
-      </class> <!-- VerifyArwSymbl.ArwSymblTest -->
+        </test-method> <!-- verifyLeadCreationTest -->
+      </class> <!-- com.crm.leads.VerifyLeadCreation -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

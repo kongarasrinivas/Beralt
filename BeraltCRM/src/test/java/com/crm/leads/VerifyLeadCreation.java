@@ -10,7 +10,7 @@ import com.crm.Pages.CreateLeadPage;
 import com.crm.Pages.HomePage;
 import com.crm.Pages.Leadspage;
 
-//@Listeners(com.crm.GenericLib.MyListeners.class)
+@Listeners(com.crm.GenericLib.MyListeners.class)
 public class VerifyLeadCreation extends BaseTest{
 
 	@Test
