@@ -8,5 +8,5 @@
     <classes>
       <class name="com.crm.leads.VerifyLeadCreation"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 
