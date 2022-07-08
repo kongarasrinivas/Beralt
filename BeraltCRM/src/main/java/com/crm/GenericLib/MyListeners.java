@@ -24,6 +24,7 @@ public class MyListeners implements ITestListener {
 		spark.config().setTheme(Theme.DARK);
 		spark.config().setDocumentTitle("Beralt CRM Report");
 		spark.config().setReportName("Extent 4");
+		extent = new ExtentReports();
 		extent.attachReporter(spark);
 	}
 

@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-<listeners>
-<listener class-name="com.crm.GenericLib.MyListeners"/>
-</listeners>
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.crm.leads.VerifyLeadCreation"/>
+      <class name="com.Beralt.accounts.VerifyAccountsTest"/>
+      <class name="com.Beralt.Potential.VerifyPotentialTest"/>
+      <class name="com.Beralt.accounts.VerifyParentAccount"/>
+      <class name="VerifyArwSymbl.ArwSymblTest"/>
+      <class name="com.Beralt.Acoountcration.VerifyAccountcreation"/>
+      <class name="com.Beralt.contact.VerifynewContact"/>
+      <class name="com.Beralt.campaign.verifyCampaignTest"/>
+      <class name="com.Beralt.ProductCreation.VerifyNewProduct"/>
+      <class name="com.Beralt.contact.VerifyContactParent"/>
+      <class name="VerifySalesOrderTab.TestSalesOrderTab"/>
+      <class name="com.Beralt.PotentialCreation.VerifyNewPotential"/>
     </classes>
-  </test> 
-</suite> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
