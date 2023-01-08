@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="VerifySalesOrderTab.TestSalesOrderTab">
+      <class name="com.Beralt.accounts.VerifyAccountsTest">
         <methods>
-          <include name="salesOrder"/>
+          <include name="verifyAccounts"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- VerifySalesOrderTab.TestSalesOrderTab -->
+      </class> <!-- com.Beralt.accounts.VerifyAccountsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
