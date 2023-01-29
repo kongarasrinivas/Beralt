@@ -3,13 +3,27 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="VerifyArwSymbl.ArwSymblTest">
+      <class name="com.Beralt.Potential.VerifyPotentialTest">
         <methods>
-          <include name="verifyArwSymbl"/>
+          <include name="openBrowser"/>
+          <include name="verifyPotentialTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.Beralt.Potential.VerifyPotentialTest -->
+      <class name="com.Beralt.accounts.VerifyAccountsTest">
+        <methods>
+          <include name="verifyAccounts"/>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- VerifyArwSymbl.ArwSymblTest -->
+      </class> <!-- com.Beralt.accounts.VerifyAccountsTest -->
+      <class name="com.crm.leads.VerifyLeadCreation">
+        <methods>
+          <include name="verifyLeadCreationTest"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.crm.leads.VerifyLeadCreation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
