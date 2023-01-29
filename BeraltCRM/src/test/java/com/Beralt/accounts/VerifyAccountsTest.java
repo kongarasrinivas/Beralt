@@ -13,7 +13,7 @@ import com.crm.leads.ValidLoginTest;
 public class VerifyAccountsTest extends BaseTest{
 	//pushing code from eclipse to github
 	//vnoiennceijco
-//pushing code on jan-29-2023
+//pushing code jan-29-2023
 	@Test
 	public void verifyAccounts() throws Throwable
 	{
