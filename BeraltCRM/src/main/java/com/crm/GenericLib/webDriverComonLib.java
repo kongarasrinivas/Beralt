@@ -5,8 +5,6 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Set;
 
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;

@@ -1,13 +1,10 @@
 package com.Beralt.Potential;
 
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.GenericLib.BaseTest;
-import com.crm.GenericLib.filelib;
 import com.crm.GenericLib.webDriverComonLib;
 import com.crm.Pages.HomePage;
-import com.crm.Pages.LoginPage;
 import com.crm.Pages.potentialpage;
 import com.crm.leads.ValidLoginTest;
 //@Listeners(com.crm.GenericLib.MyListeners.class)
