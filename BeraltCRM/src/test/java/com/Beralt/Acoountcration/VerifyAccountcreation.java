@@ -16,6 +16,7 @@ public class VerifyAccountcreation extends BaseTest {
 	@Test
 	public void VerifyAccountcreationtest() throws Throwable
 	{
+		//pushing from Eclipse
 		ValidLoginTest vl= new ValidLoginTest();
 		vl.loginTOApp();
 		HomePage hp = new HomePage();

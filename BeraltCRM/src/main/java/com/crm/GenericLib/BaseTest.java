@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 //Github Changes
-//pushng from eclipse to github
+//pushng from eclipse to github sasas
 //pulling from gitthub to eclipse
 
 public abstract class BaseTest implements Iautoconsts {
