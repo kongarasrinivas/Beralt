@@ -1,401 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="9" failed="0" skipped="3">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
-    <line>
-      <![CDATA[Login pageis Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[CRM Home is Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[Accounts Page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[Login pageis Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[CRM Home is Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[Login pageis Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[CRM Home is Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[Account page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[create Accounts pageis Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[Login pageis Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[CRM Home is Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[contact page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[contact details page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[Login pageis Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[CRM Home is Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[campaign page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[Login pageis Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[CRM Home is Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[products page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[create product page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[Login pageis Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[CRM Home is Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[Login pageis Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[CRM Home is Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[Login pageis Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[CRM Home is Displayed pass]]>
-    </line>
-    <line>
-      <![CDATA[potential page is Displayed]]>
-    </line>
-    <line>
-      <![CDATA[Create potential page is Displayed]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-01-09T22:57:33 IST" name="Suite" finished-at="2023-01-09T23:00:15 IST" duration-ms="162173">
+  <suite started-at="2025-11-18T20:50:48 IST" name="Default suite" finished-at="2025-11-18T20:50:52 IST" duration-ms="4282">
     <groups>
     </groups>
-    <test started-at="2023-01-09T22:57:33 IST" name="Test" finished-at="2023-01-09T23:00:15 IST" duration-ms="162173">
-      <class name="com.Beralt.ProductCreation.VerifyNewProduct">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Beralt.ProductCreation.VerifyNewProduct@6be968ce]" started-at="2023-01-09T22:59:50 IST" name="openBrowser" finished-at="2023-01-09T22:59:53 IST" duration-ms="3226" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login pageis Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="newProduct()[pri:0, instance:com.Beralt.ProductCreation.VerifyNewProduct@6be968ce]" started-at="2023-01-09T22:59:53 IST" name="newProduct" finished-at="2023-01-09T22:59:56 IST" duration-ms="3443" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CRM Home is Displayed pass]]>
-            </line>
-            <line>
-              <![CDATA[products page is Displayed]]>
-            </line>
-            <line>
-              <![CDATA[create product page is Displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- newProduct -->
-      </class> <!-- com.Beralt.ProductCreation.VerifyNewProduct -->
-      <class name="com.Beralt.PotentialCreation.VerifyNewPotential">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Beralt.PotentialCreation.VerifyNewPotential@1033576a]" started-at="2023-01-09T23:00:07 IST" name="openBrowser" finished-at="2023-01-09T23:00:11 IST" duration-ms="3067" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login pageis Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="VerifyNewPotentialTest()[pri:0, instance:com.Beralt.PotentialCreation.VerifyNewPotential@1033576a]" started-at="2023-01-09T23:00:11 IST" name="VerifyNewPotentialTest" finished-at="2023-01-09T23:00:15 IST" duration-ms="4501" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CRM Home is Displayed pass]]>
-            </line>
-            <line>
-              <![CDATA[potential page is Displayed]]>
-            </line>
-            <line>
-              <![CDATA[Create potential page is Displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VerifyNewPotentialTest -->
-      </class> <!-- com.Beralt.PotentialCreation.VerifyNewPotential -->
-      <class name="com.Beralt.Potential.VerifyPotentialTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Beralt.Potential.VerifyPotentialTest@24569dba]" started-at="2023-01-09T22:58:47 IST" name="openBrowser" finished-at="2023-01-09T22:59:11 IST" duration-ms="24468" status="FAIL">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a419b364151d509b5a9c6e837e8a191e, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51267/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a419b364151d509b5a9c6e837e8a191e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a419b364151d509b5a9c6e837e8a191e, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51267/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a419b364151d509b5a9c6e837e8a191e
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
-at com.crm.GenericLib.BaseTest.openBrowser(BaseTest.java:39)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:63361
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:80)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:124)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-... 28 more
-Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:63361
-at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
-at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
-at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
-at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
-at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
-at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
-at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
-at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
-at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
-at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
-at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:63361
-Caused by: java.net.ConnectException: Connection refused: no further information
-at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
-at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifyPotentialTest()[pri:0, instance:com.Beralt.Potential.VerifyPotentialTest@24569dba]" started-at="2023-01-09T22:59:11 IST" name="verifyPotentialTest" finished-at="2023-01-09T22:59:11 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a419b364151d509b5a9c6e837e8a191e, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51267/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a419b364151d509b5a9c6e837e8a191e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a419b364151d509b5a9c6e837e8a191e, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51267/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: a419b364151d509b5a9c6e837e8a191e
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
-at com.crm.GenericLib.BaseTest.openBrowser(BaseTest.java:39)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:63361
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:80)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:124)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-... 28 more
-Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:63361
-at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
-at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
-at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
-at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
-at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
-at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
-at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
-at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
-at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
-at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
-at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:63361
-Caused by: java.net.ConnectException: Connection refused: no further information
-at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
-at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPotentialTest -->
-      </class> <!-- com.Beralt.Potential.VerifyPotentialTest -->
-      <class name="com.Beralt.accounts.VerifyParentAccount">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Beralt.accounts.VerifyParentAccount@5ddeb7cb]" started-at="2023-01-09T22:59:11 IST" name="openBrowser" finished-at="2023-01-09T22:59:14 IST" duration-ms="2479" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login pageis Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifyParentAccountTest()[pri:0, instance:com.Beralt.accounts.VerifyParentAccount@5ddeb7cb]" started-at="2023-01-09T22:59:14 IST" name="verifyParentAccountTest" finished-at="2023-01-09T22:59:20 IST" duration-ms="6860" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CRM Home is Displayed pass]]>
-            </line>
-            <line>
-              <![CDATA[Accounts Page is Displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyParentAccountTest -->
-      </class> <!-- com.Beralt.accounts.VerifyParentAccount -->
+    <test started-at="2025-11-18T20:50:48 IST" name="Default test" finished-at="2025-11-18T20:50:52 IST" duration-ms="4282">
       <class name="com.crm.leads.VerifyLeadCreation">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.crm.leads.VerifyLeadCreation@231f98ef]" started-at="2023-01-09T22:57:33 IST" name="openBrowser" finished-at="2023-01-09T22:58:19 IST" duration-ms="45312" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.crm.leads.VerifyLeadCreation@5032714f]" started-at="2025-11-18T20:50:48 IST" name="openBrowser" finished-at="2025-11-18T20:50:52 IST" duration-ms="3875" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[unknown error: net::ERR_CONNECTION_TIMED_OUT
-  (Session info: chrome=108.0.5359.125)
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 142.0.7444.163 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'LAPTOP-VEG77J8H', ip: '172.20.10.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d51ebe07d810d728882b0513e0d950b5, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51191/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d51ebe07d810d728882b0513e0d950b5]]>
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
-  (Session info: chrome=108.0.5359.125)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 142.0.7444.163 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'LAPTOP-VEG77J8H', ip: '172.20.10.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d51ebe07d810d728882b0513e0d950b5, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51191/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d51ebe07d810d728882b0513e0d950b5
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
-at com.crm.GenericLib.BaseTest.openBrowser(BaseTest.java:39)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+at com.crm.GenericLib.BaseTest.openBrowser(BaseTest.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -424,44 +66,41 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="verifyLeadCreationTest()[pri:0, instance:com.crm.leads.VerifyLeadCreation@231f98ef]" started-at="2023-01-09T22:58:19 IST" name="verifyLeadCreationTest" finished-at="2023-01-09T22:58:19 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
+        <test-method signature="verifyLeadCreationTest()[pri:0, instance:com.crm.leads.VerifyLeadCreation@5032714f]" started-at="2025-11-18T20:50:52 IST" name="verifyLeadCreationTest" finished-at="2025-11-18T20:50:52 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[unknown error: net::ERR_CONNECTION_TIMED_OUT
-  (Session info: chrome=108.0.5359.125)
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 142.0.7444.163 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'LAPTOP-VEG77J8H', ip: '172.20.10.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d51ebe07d810d728882b0513e0d950b5, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51191/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d51ebe07d810d728882b0513e0d950b5]]>
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
-  (Session info: chrome=108.0.5359.125)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 108
+Current browser version is 142.0.7444.163 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
 Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+System info: host: 'LAPTOP-VEG77J8H', ip: '172.20.10.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d51ebe07d810d728882b0513e0d950b5, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51191/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: d51ebe07d810d728882b0513e0d950b5
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
-at com.crm.GenericLib.BaseTest.openBrowser(BaseTest.java:39)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:48)
+at com.crm.GenericLib.BaseTest.openBrowser(BaseTest.java:24)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -490,330 +129,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLeadCreationTest -->
       </class> <!-- com.crm.leads.VerifyLeadCreation -->
-      <class name="com.Beralt.accounts.VerifyAccountsTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Beralt.accounts.VerifyAccountsTest@8462f31]" started-at="2023-01-09T22:58:19 IST" name="openBrowser" finished-at="2023-01-09T22:58:47 IST" duration-ms="28089" status="FAIL">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0f952ad47c5d9bf897f5ba5b3ee4f308, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51231/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f952ad47c5d9bf897f5ba5b3ee4f308]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0f952ad47c5d9bf897f5ba5b3ee4f308, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51231/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f952ad47c5d9bf897f5ba5b3ee4f308
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
-at com.crm.GenericLib.BaseTest.openBrowser(BaseTest.java:39)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59716
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:80)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:124)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-... 28 more
-Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59716
-at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
-at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
-at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
-at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
-at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
-at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
-at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
-at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
-at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
-at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
-at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59716
-Caused by: java.net.ConnectException: Connection refused: no further information
-at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
-at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifyAccounts()[pri:0, instance:com.Beralt.accounts.VerifyAccountsTest@8462f31]" started-at="2023-01-09T22:58:47 IST" name="verifyAccounts" finished-at="2023-01-09T22:58:47 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
-            <message>
-              <![CDATA[Error communicating with the remote browser. It may have died.
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0f952ad47c5d9bf897f5ba5b3ee4f308, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51231/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f952ad47c5d9bf897f5ba5b3ee4f308]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
-Build info: version: '4.1.3', revision: '7b1ebf28ef'
-System info: host: 'LAPTOP-VEG77J8H', ip: '192.168.29.150', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0f952ad47c5d9bf897f5ba5b3ee4f308, get {url=http://192.168.11.128:8080/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\Srinivas\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51231/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 0f952ad47c5d9bf897f5ba5b3ee4f308
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:330)
-at com.crm.GenericLib.BaseTest.openBrowser(BaseTest.java:39)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:808)
-at org.testng.TestRunner.run(TestRunner.java:603)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
-at org.testng.SuiteRunner.run(SuiteRunner.java:326)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-at org.testng.TestNG.runSuites(TestNG.java:1092)
-at org.testng.TestNG.run(TestNG.java:1060)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59716
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:80)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
-at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:124)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
-... 28 more
-Caused by: java.net.ConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59716
-at org.asynchttpclient.netty.channel.NettyConnectListener.onFailure(NettyConnectListener.java:179)
-at org.asynchttpclient.netty.channel.NettyChannelConnector$1.onFailure(NettyChannelConnector.java:108)
-at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:28)
-at org.asynchttpclient.netty.SimpleChannelFutureListener.operationComplete(SimpleChannelFutureListener.java:20)
-at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
-at io.netty.util.concurrent.DefaultPromise.notifyListeners0(DefaultPromise.java:571)
-at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:550)
-at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
-at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
-at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:609)
-at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:117)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.fulfillConnectPromise(AbstractNioChannel.java:321)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:337)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/0:0:0:0:0:0:0:1:59716
-Caused by: java.net.ConnectException: Connection refused: no further information
-at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
-at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
-at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
-at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:710)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
-at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
-at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
-at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
-at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-at java.base/java.lang.Thread.run(Thread.java:834)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAccounts -->
-      </class> <!-- com.Beralt.accounts.VerifyAccountsTest -->
-      <class name="com.Beralt.Acoountcration.VerifyAccountcreation">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Beralt.Acoountcration.VerifyAccountcreation@496bc455]" started-at="2023-01-09T22:59:24 IST" name="openBrowser" finished-at="2023-01-09T22:59:26 IST" duration-ms="2472" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login pageis Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="VerifyAccountcreationtest()[pri:0, instance:com.Beralt.Acoountcration.VerifyAccountcreation@496bc455]" started-at="2023-01-09T22:59:26 IST" name="VerifyAccountcreationtest" finished-at="2023-01-09T22:59:32 IST" duration-ms="5589" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CRM Home is Displayed pass]]>
-            </line>
-            <line>
-              <![CDATA[Account page is Displayed]]>
-            </line>
-            <line>
-              <![CDATA[create Accounts pageis Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VerifyAccountcreationtest -->
-      </class> <!-- com.Beralt.Acoountcration.VerifyAccountcreation -->
-      <class name="com.Beralt.contact.VerifynewContact">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Beralt.contact.VerifynewContact@59402b8f]" started-at="2023-01-09T22:59:32 IST" name="openBrowser" finished-at="2023-01-09T22:59:35 IST" duration-ms="2848" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login pageis Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="VerifynewContacttest()[pri:0, instance:com.Beralt.contact.VerifynewContact@59402b8f]" started-at="2023-01-09T22:59:35 IST" name="VerifynewContacttest" finished-at="2023-01-09T22:59:44 IST" duration-ms="8608" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CRM Home is Displayed pass]]>
-            </line>
-            <line>
-              <![CDATA[contact page is Displayed]]>
-            </line>
-            <line>
-              <![CDATA[contact details page is Displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VerifynewContacttest -->
-      </class> <!-- com.Beralt.contact.VerifynewContact -->
-      <class name="VerifyArwSymbl.ArwSymblTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:VerifyArwSymbl.ArwSymblTest@70ed52de]" started-at="2023-01-09T22:59:20 IST" name="openBrowser" finished-at="2023-01-09T22:59:23 IST" duration-ms="2554" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login pageis Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifyArwSymbl()[pri:0, instance:VerifyArwSymbl.ArwSymblTest@70ed52de]" started-at="2023-01-09T22:59:23 IST" name="verifyArwSymbl" finished-at="2023-01-09T22:59:24 IST" duration-ms="941" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CRM Home is Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyArwSymbl -->
-      </class> <!-- VerifyArwSymbl.ArwSymblTest -->
-      <class name="com.Beralt.contact.VerifyContactParent">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Beralt.contact.VerifyContactParent@7c37508a]" started-at="2023-01-09T22:59:56 IST" name="openBrowser" finished-at="2023-01-09T22:59:59 IST" duration-ms="2674" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login pageis Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="VerifyCntctpage()[pri:0, instance:com.Beralt.contact.VerifyContactParent@7c37508a]" started-at="2023-01-09T22:59:59 IST" name="VerifyCntctpage" finished-at="2023-01-09T23:00:02 IST" duration-ms="3325" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CRM Home is Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- VerifyCntctpage -->
-      </class> <!-- com.Beralt.contact.VerifyContactParent -->
-      <class name="com.Beralt.campaign.verifyCampaignTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Beralt.campaign.verifyCampaignTest@7188af83]" started-at="2023-01-09T22:59:44 IST" name="openBrowser" finished-at="2023-01-09T22:59:46 IST" duration-ms="2818" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login pageis Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifyCampaign()[pri:0, instance:com.Beralt.campaign.verifyCampaignTest@7188af83]" started-at="2023-01-09T22:59:46 IST" name="verifyCampaign" finished-at="2023-01-09T22:59:50 IST" duration-ms="3321" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CRM Home is Displayed pass]]>
-            </line>
-            <line>
-              <![CDATA[campaign page is Displayed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyCampaign -->
-      </class> <!-- com.Beralt.campaign.verifyCampaignTest -->
-      <class name="VerifySalesOrderTab.TestSalesOrderTab">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:VerifySalesOrderTab.TestSalesOrderTab@247310d0]" started-at="2023-01-09T23:00:02 IST" name="openBrowser" finished-at="2023-01-09T23:00:05 IST" duration-ms="3101" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Login pageis Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="salesOrder()[pri:0, instance:VerifySalesOrderTab.TestSalesOrderTab@247310d0]" started-at="2023-01-09T23:00:05 IST" name="salesOrder" finished-at="2023-01-09T23:00:07 IST" duration-ms="2024" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[CRM Home is Displayed pass]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- salesOrder -->
-      </class> <!-- VerifySalesOrderTab.TestSalesOrderTab -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

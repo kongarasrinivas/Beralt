@@ -17,7 +17,7 @@ public class AccountsPage {
 	@FindBy(xpath="(//table)[11]//tr[1]//td[2]") private WebElement srinivasTabClick;
 	public AccountsPage()
 	{
-		PageFactory.initElements(BaseTest.driver, this);
+		PageFactory.initElements(BaseTest.driver, this);  
 	}
 
 	public WebElement getAccountsTextAddress() {

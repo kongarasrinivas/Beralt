@@ -105,7 +105,7 @@ public void getFullScreenshot(String path) {
 	TakesScreenshot ts = (TakesScreenshot)BaseTest.driver;
 	File src = ts.getScreenshotAs(OutputType.FILE);
 	File dest = new File(path);
-	try {
+	try {		
 		Files.copy(src, dest);
 	}catch (IOException e) {
 		e.printStackTrace();

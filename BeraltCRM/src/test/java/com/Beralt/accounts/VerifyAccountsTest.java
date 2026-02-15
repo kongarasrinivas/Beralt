@@ -23,7 +23,7 @@ public class VerifyAccountsTest extends BaseTest{
 		
 		HomePage hp=new HomePage();
 		hp.clickaccounttab();
-		
+		//kekwnf
 		webDriverComonLib wlib=new webDriverComonLib();
 		AccountsPage ap=new AccountsPage();
 		wlib.elementDisplayed(ap.getAccountsTextAddress(), "Accounts Page");

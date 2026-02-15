@@ -17,6 +17,7 @@ public class VerifyAccountcreation extends BaseTest {
 	public void VerifyAccountcreationtest() throws Throwable
 	{
 		//pushing from Eclipse
+		
 		ValidLoginTest vl= new ValidLoginTest();
 		vl.loginTOApp();
 		HomePage hp = new HomePage();
@@ -25,6 +26,7 @@ public class VerifyAccountcreation extends BaseTest {
 		webDriverComonLib wlib = new webDriverComonLib();
 		AccountsPage ap= new AccountsPage();
 		wlib.elementDisplayed(ap.getAccountsTextAddress(),"Account page");
+	
 		
 		ap.clicknewAccounttab();
 		filelib flib = new filelib();
